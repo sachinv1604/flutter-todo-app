@@ -1,0 +1,22 @@
+# Tell GitHub to ignore auto-generated platform code in language stats
+
+# Windows
+windows/** linguist-generated=true
+*.cmake linguist-generated=true
+CMakeLists.txt linguist-generated=true
+
+# iOS/macOS
+ios/** linguist-generated=true
+macos/** linguist-generated=true
+
+# Android
+android/** linguist-generated=true
+
+# Web
+web/** linguist-generated=true
+
+# Linux
+linux/** linguist-generated=true
+
+# Keep only Dart visible
+*.dart linguist-detectable=true
